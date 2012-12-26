@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1E0200C168B1B5000BAEACB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E0200B168B1B5000BAEACB /* Foundation.framework */; };
+		A1E02020168B1B7600BAEACB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E0201F168B1B7600BAEACB /* UIKit.framework */; };
+		A1E02021168B1B7600BAEACB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E0200B168B1B5000BAEACB /* Foundation.framework */; };
+		A1E02023168B1B7600BAEACB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E02022168B1B7600BAEACB /* CoreGraphics.framework */; };
+		A1E02044168B1BD200BAEACB /* LEffectLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E02041168B1BD200BAEACB /* LEffectLabel.m */; };
+		A1E0204E168B1BDD00BAEACB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E02047168B1BDD00BAEACB /* AppDelegate.m */; };
+		A1E02051168B1BDD00BAEACB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E0204D168B1BDD00BAEACB /* main.m */; };
+		A1E02055168B1C6F00BAEACB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E02053168B1C6F00BAEACB /* ViewController.m */; };
+		A1E02056168B1C6F00BAEACB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1E02054168B1C6F00BAEACB /* ViewController.xib */; };
+		A1E02058168B1CC400BAEACB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E02057168B1CC400BAEACB /* QuartzCore.framework */; };
+		A1E02059168B1CC700BAEACB /* libLEffectLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E02008168B1B5000BAEACB /* libLEffectLabel.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1E02006168B1B5000BAEACB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A1E02008168B1B5000BAEACB /* libLEffectLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLEffectLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E0200B168B1B5000BAEACB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1E0201D168B1B7600BAEACB /* LEffectLabelSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEffectLabelSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E0201F168B1B7600BAEACB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1E02022168B1B7600BAEACB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1E02040168B1BD200BAEACB /* LEffectLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEffectLabel.h; sourceTree = "<group>"; };
+		A1E02041168B1BD200BAEACB /* LEffectLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEffectLabel.m; sourceTree = "<group>"; };
+		A1E02043168B1BD200BAEACB /* LEffectLabel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LEffectLabel-Prefix.pch"; sourceTree = "<group>"; };
+		A1E02046168B1BDD00BAEACB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1E02047168B1BDD00BAEACB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1E0204B168B1BDD00BAEACB /* LEffectLabelSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LEffectLabelSample-Info.plist"; sourceTree = "<group>"; };
+		A1E0204C168B1BDD00BAEACB /* LEffectLabelSample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LEffectLabelSample-Prefix.pch"; sourceTree = "<group>"; };
+		A1E0204D168B1BDD00BAEACB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1E02052168B1C6F00BAEACB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1E02053168B1C6F00BAEACB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1E02054168B1C6F00BAEACB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		A1E02057168B1CC400BAEACB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A1E02063168B1EE700BAEACB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1E02005168B1B5000BAEACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E0200C168B1B5000BAEACB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E0201A168B1B7600BAEACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E02059168B1CC700BAEACB /* libLEffectLabel.a in Frameworks */,
+				A1E02058168B1CC400BAEACB /* QuartzCore.framework in Frameworks */,
+				A1E02020168B1B7600BAEACB /* UIKit.framework in Frameworks */,
+				A1E02021168B1B7600BAEACB /* Foundation.framework in Frameworks */,
+				A1E02023168B1B7600BAEACB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1E01FFD168B1B5000BAEACB = {
+			isa = PBXGroup;
+			children = (
+				A1E02063168B1EE700BAEACB /* README.md */,
+				A1E0200D168B1B5000BAEACB /* LEffectLabel */,
+				A1E02024168B1B7600BAEACB /* LEffectLabelSample */,
+				A1E0200A168B1B5000BAEACB /* Frameworks */,
+				A1E02009168B1B5000BAEACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1E02009168B1B5000BAEACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1E02008168B1B5000BAEACB /* libLEffectLabel.a */,
+				A1E0201D168B1B7600BAEACB /* LEffectLabelSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1E0200A168B1B5000BAEACB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1E02057168B1CC400BAEACB /* QuartzCore.framework */,
+				A1E0200B168B1B5000BAEACB /* Foundation.framework */,
+				A1E0201F168B1B7600BAEACB /* UIKit.framework */,
+				A1E02022168B1B7600BAEACB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1E0200D168B1B5000BAEACB /* LEffectLabel */ = {
+			isa = PBXGroup;
+			children = (
+				A1E0203F168B1BD200BAEACB /* Classes */,
+				A1E02042168B1BD200BAEACB /* Supporting Files */,
+			);
+			path = LEffectLabel;
+			sourceTree = "<group>";
+		};
+		A1E02024168B1B7600BAEACB /* LEffectLabelSample */ = {
+			isa = PBXGroup;
+			children = (
+				A1E02045168B1BDD00BAEACB /* Classes */,
+				A1E0204A168B1BDD00BAEACB /* Supporting Files */,
+			);
+			path = LEffectLabelSample;
+			sourceTree = "<group>";
+		};
+		A1E0203F168B1BD200BAEACB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1E02040168B1BD200BAEACB /* LEffectLabel.h */,
+				A1E02041168B1BD200BAEACB /* LEffectLabel.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A1E02042168B1BD200BAEACB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1E02043168B1BD200BAEACB /* LEffectLabel-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1E02045168B1BDD00BAEACB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1E02046168B1BDD00BAEACB /* AppDelegate.h */,
+				A1E02047168B1BDD00BAEACB /* AppDelegate.m */,
+				A1E02052168B1C6F00BAEACB /* ViewController.h */,
+				A1E02053168B1C6F00BAEACB /* ViewController.m */,
+				A1E02054168B1C6F00BAEACB /* ViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A1E0204A168B1BDD00BAEACB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1E0204B168B1BDD00BAEACB /* LEffectLabelSample-Info.plist */,
+				A1E0204C168B1BDD00BAEACB /* LEffectLabelSample-Prefix.pch */,
+				A1E0204D168B1BDD00BAEACB /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1E02007168B1B5000BAEACB /* LEffectLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E02016168B1B5000BAEACB /* Build configuration list for PBXNativeTarget "LEffectLabel" */;
+			buildPhases = (
+				A1E02004168B1B5000BAEACB /* Sources */,
+				A1E02005168B1B5000BAEACB /* Frameworks */,
+				A1E02006168B1B5000BAEACB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEffectLabel;
+			productName = LEffectLabel;
+			productReference = A1E02008168B1B5000BAEACB /* libLEffectLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A1E0201C168B1B7600BAEACB /* LEffectLabelSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E0203C168B1B7600BAEACB /* Build configuration list for PBXNativeTarget "LEffectLabelSample" */;
+			buildPhases = (
+				A1E02019168B1B7600BAEACB /* Sources */,
+				A1E0201A168B1B7600BAEACB /* Frameworks */,
+				A1E0201B168B1B7600BAEACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEffectLabelSample;
+			productName = LEffectLabelSample;
+			productReference = A1E0201D168B1B7600BAEACB /* LEffectLabelSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1E01FFF168B1B5000BAEACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Luka Gabric";
+			};
+			buildConfigurationList = A1E02002168B1B5000BAEACB /* Build configuration list for PBXProject "LEffectLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1E01FFD168B1B5000BAEACB;
+			productRefGroup = A1E02009168B1B5000BAEACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1E02007168B1B5000BAEACB /* LEffectLabel */,
+				A1E0201C168B1B7600BAEACB /* LEffectLabelSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1E0201B168B1B7600BAEACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E02056168B1C6F00BAEACB /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1E02004168B1B5000BAEACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E02044168B1BD200BAEACB /* LEffectLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E02019168B1B7600BAEACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E0204E168B1BDD00BAEACB /* AppDelegate.m in Sources */,
+				A1E02051168B1BDD00BAEACB /* main.m in Sources */,
+				A1E02055168B1C6F00BAEACB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1E02014168B1B5000BAEACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1E02015168B1B5000BAEACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1E02017168B1B5000BAEACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LEffectLabel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEffectLabel/Supporting Files/LEffectLabel-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A1E02018168B1B5000BAEACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LEffectLabel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEffectLabel/Supporting Files/LEffectLabel-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A1E0203D168B1B7600BAEACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEffectLabelSample/Supporting Files/LEffectLabelSample-Prefix.pch";
+				INFOPLIST_FILE = "LEffectLabelSample/Supporting Files/LEffectLabelSample-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1E0203E168B1B7600BAEACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEffectLabelSample/Supporting Files/LEffectLabelSample-Prefix.pch";
+				INFOPLIST_FILE = "LEffectLabelSample/Supporting Files/LEffectLabelSample-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1E02002168B1B5000BAEACB /* Build configuration list for PBXProject "LEffectLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E02014168B1B5000BAEACB /* Debug */,
+				A1E02015168B1B5000BAEACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E02016168B1B5000BAEACB /* Build configuration list for PBXNativeTarget "LEffectLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E02017168B1B5000BAEACB /* Debug */,
+				A1E02018168B1B5000BAEACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E0203C168B1B7600BAEACB /* Build configuration list for PBXNativeTarget "LEffectLabelSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E0203D168B1B7600BAEACB /* Debug */,
+				A1E0203E168B1B7600BAEACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1E01FFF168B1B5000BAEACB /* Project object */;
+}
