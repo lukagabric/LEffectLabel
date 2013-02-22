@@ -315,6 +315,7 @@
 				DSTROOT = /tmp/LEffectLabel.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LEffectLabel/Supporting Files/LEffectLabel-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -327,6 +328,7 @@
 				DSTROOT = /tmp/LEffectLabel.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LEffectLabel/Supporting Files/LEffectLabel-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -340,6 +342,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LEffectLabelSample/Supporting Files/LEffectLabelSample-Prefix.pch";
 				INFOPLIST_FILE = "LEffectLabelSample/Supporting Files/LEffectLabelSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -356,6 +359,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LEffectLabelSample/Supporting Files/LEffectLabelSample-Prefix.pch";
 				INFOPLIST_FILE = "LEffectLabelSample/Supporting Files/LEffectLabelSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = (
 					"-all_load",
