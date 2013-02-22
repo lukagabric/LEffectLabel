@@ -3,7 +3,7 @@ LEffectLabel
 
 iOS Text Label With Effect
 
-Blog post with description and video example: http://iphonedev.lukagabric.com/effect-label-using-cagradientlayer-and-caanimation
+Blog post with description and video example: http://lukagabric.com/effect-label-using-cagradientlayer-and-caanimation
 
 You may use the LEffectLabel class files in your project directly, or you may follow the steps below to clone the repo and use it as static library in your project.
 
